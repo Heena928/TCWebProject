@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.nav{
+    height:12vh;
+    width:100vw;
+    background-color:#ffff;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    height:50px;
+    width:180px;
+    margin: 20px;
+
+}
+.nav-con{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.nav-con h1{
+    font-size: 22px;
+    color: #3368bd;
+    margin-right: 15px;
+}
+.btn{
+    color:#3368bd;
+    font-size: 20px;
+    background-color:transparent;
+    border:1px solid #3368bd;
+    font-weight: 600;
+    border-width: 0px;
+}
+.container{
+    height: 200vh;
+    width: 100vw;
+    background-image: url("./Resources/images.jpg");
+    background-size:cover;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    color: #24698f;
+
+}
+.left-con{
+    height: 88vh;
+    width: 20vw;
+    background-color:#e5e5e5;
+    box-shadow: 10px 10px #579cb5 ;
+    /* border: 1px solid; */
+}
+.right-con h1{
+   color:#ffff;
+   margin: 20px;
+}
+.pic{
+    margin: 20px;
+    height:140px;
+    width: 150px;
+}
+.course-content{
+    margin: 20px;
+    height:30vh;
+    width:80vw;
+    font-family: "Roboto";
+    color:#ffffff;
+    font-size: 15px;
+    border: 1px solid #ffff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+.course-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.course_img{
+    height:30vh;
+    width:20%;
+    text-align: center;
+    margin-right: 10px;
+}
+/* .course_img img{
+    width:18vw;
+} */
+.myinfo{
+   text-decoration: none; 
+}
+.topic-con{
+    background-image: url(./Resources/python-1.jpg);
+    height:30vh;
+    width:20%;
+    text-align: center;
+    margin-right: 10px;
+    background-size: cover;
+    color: black;
+    text-align: left;
+}
+.topic-name{
+    color: black;
+}
+.topic-content{
+    width: 70%;
+}
+.sql-con{
+    background-image: url(./Resources/sqlprofile.jpg);
+    height:30vh;
+    width:20%;
+    text-align: center;
+    margin-right: 10px;
+    background-size: cover;
+    color: black;
+    text-align: left;
+}
+.sql-name{
+    color: black;
+}
+.sql-content{
+    width: 70%;
+}

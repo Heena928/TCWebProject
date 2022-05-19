@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+          <div class="card">
+              <div class="inner-container" id="card">
+               <div class="front-card">
+                    <img class="logo" src="./Resources/Blue.cloud logo.jpg"/>
+                    <!-- <h2>LOGIN</h2> -->
+                  <form>
+                      <input type="text" class="input-box" placeholder="Employee ID" required>
+                      <input type="password" class="input-box" placeholder="Password" required>
+                      <input type="checkbox"><span>Remember Me</span>
+                      <a class="myinfo" href="./myinfo.html"><h1 type="submit" class="submit-btn button">Login</h1></a>
+                  </form>
+                  <button type="button" class="btn button" onclick="openRegister()">New User</button>
+                  <a href="#forgotPassword">Forgot Password?</a>
+               </div>
+               <div class="back-card">
+                <h2>REGISTER</h2>
+                <form>
+                    <input type="text" class="input-box" placeholder="Email" required>
+                    <input type="password" class="input-box" placeholder="Create Password" required>
+                    <input type="password" class="input-box" placeholder="Confirm Password" required>
+                   <div><input type="checkbox"><span>I agree to the Terms and Service</span></div>
+                    <button type="submit" class="submit-btn button">Submit</button>
+                </form>
+                <button type="button" class="btn button" onclick="openLogin()">I've an account</button>
+               </div>
+              </div>
+          </div>
+    </div>
+    <script src="./login.js"></script>
+</body>
+</html>
