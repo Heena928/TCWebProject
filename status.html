@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="status.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <nav class="nav">
+            <a  class="myinfo" href="./myinfo.html">
+                <img src="./Resources/Blue.cloud logo.jpg" class="logo"/>
+            </a>
+            <div class="nav-con">
+                <a class="myinfo" href="./myinfo.html"><h1>My Info</h1></a>
+                <a class="myinfo" href="./index.html"><h1>Courses</h1></a>
+                <a class="myinfo" href="./status.html"><h1>Status</h1></a>
+                <a class="myinfo" href="./login.html"><h1 class="bt">Logout</h1></a>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="bg"><h1>Course Status</h1>
+                <div class="btn-con">
+                    <button class="p-3 button selected-button" id="PersonalButton" onclick="personal()">
+                        In Progress
+                    </button>
+                    <button class="p-3 button" id="JobButton" onclick="job()">
+                        Completed
+                    </button>
+                </div>
+                <div id="personalData">
+                    <div class="course-con">
+                        <a  class="myinfo" href="./pythontopics.html">
+                            <div class="course-content">
+                                <img src="./Resources/python1.png" class="course_img"/>
+                                <p>Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected.</p>
+                            </div>
+                        </a>
+                        <a  class="myinfo" href="./sqltopics.html">
+                            <div class="course-content">
+                                <img src="./Resources/sql1.jpg" class="course_img"/>
+                                <p>SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system. </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div id="jobData">
+                    <div class="course-con">
+                    <a  class="myinfo" href="./powerbi.html">
+                        <div class="course-content">
+                            <img src="./Resources/powerbiiiiiii.jpg" class="course_img" />
+                            <p>Power BI is an interactive data visualization software product developed by Microsoft with a primary focus on business intelligence. It is part of the Microsoft Power Platform.</p>
+                        </div>
+                    </a>
+                </div>
+                </div>
+            </div>
+       </div>
+    </div>
+    <script src="./status.js"></script>
+</body>
+</html>

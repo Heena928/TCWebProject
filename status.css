@@ -12,8 +12,8 @@
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
+    position: fixed; 
+    top: 0;
     width: 100%;
 
 }
@@ -43,30 +43,57 @@
     border-width: 0px;
 }
 .container{
-    height: 200vh;
-    width: 100vw;
+    height: 150vh;
+   width: 100vw;
     background-image: url("./Resources/images.jpg");
     background-size:cover;
     /* filter: blur(8px);
     -webkit-filter: blur(8px); */
-    color: #24698f;
+    color:#fff;
+    padding-top: 60px;
 
 }
-.left-con{
-    height: 88vh;
+.myinfo{
+    text-decoration: none;
+}
+.button {
+    background-color:transparent;
+    font-family: "Roboto";
+    font-size: 18px;
+    width: 20%;
+    color: #ffff;
+    border-width: 0;
+    border: none;
+    padding: 10px;
+    font-size: 22px;
+    /* border-radius: 8px; */
+}
+
+.selected-button {
+    background-color:#ffff;
+    border: none;
+    color:black;
+    font-size: 22px;
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px ;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius:5px ;
     width: 20vw;
-    background-color:#e5e5e5;
-    box-shadow: 10px 10px #579cb5 ;
-    /* border: 1px solid; */
 }
-.right-con h1{
-   color:#ffff;
-   margin: 20px;
+.dispaly{
+    display: none;
 }
-.pic{
+.btn-con{
+    /* background-image:linear-gradient(-90deg,#0c749a,#30aed8);    */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* width:81vw; */
+    /* padding: 10px; */
+}
+h1{
     margin: 20px;
-    height:140px;
-    width: 150px;
 }
 .course-content{
     margin: 20px;
@@ -94,56 +121,4 @@
     width:20%;
     text-align: center;
     margin-right: 10px;
-}
-/* .course_img img{
-    width:18vw;
-} */
-.myinfo{
-   text-decoration: none; 
-}
-.topic-con{
-    background-image: url(./Resources/pl.jpg);
-    height:30vh;
-    width:20%;
-    text-align: center;
-    margin-right: 10px;
-    background-size: cover;
-    color: black;
-    text-align: left;
-}
-.topic-name{
-    color: black;
-}
-.topic-content{
-    width: 60%;
-}
-.sql-con{
-    background-image: url(./Resources/sqlprofile.jpg);
-    height:30vh;
-    width:20%;
-    text-align: center;
-    margin-right: 10px;
-    background-size: cover;
-    color: black;
-    text-align: left;
-}
-.sql-name{
-    color: black;
-}
-.sql-content{
-    width: 70%;
-}
-.align{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: flex-start; */
-    color: #ffff;
-    padding-top: 10px;
-}
-.align p{
-    margin-top: 10px;
-}
-.course-con h1{
-    text-align:left;
-    color:black;
 }

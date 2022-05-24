@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+}
+.nav{
+    height:12vh;
+    background-color:#ffff;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; 
+
+}
+
+.logo{
+    height:50px;
+    width:180px;
+    margin: 20px;
+
+}
+.nav-con{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.nav-con h1{
+    font-size: 22px;
+    color: #3368bd;
+    margin-right: 15px;
+}
+.bt{
+    color:#3368bd;
+    font-size: 20px;
+    background-color:transparent;
+    border:1px solid #3368bd;
+    font-weight: 600;
+    border-width: 0px;
+}
+.myinfo{
+    text-decoration: none; 
+ }
+/* .container{
+    height:200vh;
+    width:100vw;
+    /* background-image: url("./Resources/images.jpg"); */
+    /* background-size:cover; */
+/* } */
+.con{
+    height:45vh;
+    width:100%;
+    border-top: 5px solid skyblue;
+    background-image:linear-gradient(-90deg,#0c749a,#30aed8);
+    display: flex;
+    flex-direction: row;
+}
+.image-con{
+    background-color: #ffff;
+    margin: 70px;
+    height:36vh;
+    width: 16vw;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0c749a;
+    z-index: 5;
+    /* border-top-left-radius: 100px 100px;
+    border-top-right-radius: 100px 100px;
+    border-bottom-left-radius: 100px 100px;
+    border-bottom-right-radius: 100px 100px; */
+}
+.image{
+    height:20vh;
+    width:10vw;
+    margin: 10px;
+}
+.details-con{
+    color: #ffff;
+    font-family:"Roboto";
+    font-size: 35px;
+    font-weight: bold;
+    margin-left:0px 10px 0px  50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading{
+    font-size: 30px;
+    font-weight: 700;
+    color: #0c8eb6f5;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: black;
+    font-size:25px;
+    margin: 15px;
+}
+.head h5{
+    margin-left: 10px;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left:20px ;
+}
+.input{
+    height:35px;
+    width:170px;
+}
+.head h4{
+    margin-left: 10px;
+    margin-bottom: 10px; 
+}
+.cont-in{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.left-con{
+    height:130vh;
+    width: 20vw;
+    background-color:#f4f4f4;
+    margin-left: 15px;
+}
+.phone-con{
+    display: flex;
+    flex-direction: row;
+    color: #686868;
+    /* margin:10px; */
+    padding:35px 0px 10px 20px;
+    /* margin-right: 10px; */
+
+}
+.email-con{
+    display: flex;
+    flex-direction: row;
+    color: #686868;
+    /* margin-left:10px; */
+    padding:10px 0px 10px 20px;
+    /* margin-right: 10px; */
+
+}
+.hr{
+    margin-left:15px;
+    margin-right:15px;
+}
+.p{
+    margin-right: 10px;
+}
+.hire-con{
+    color:#084a61;
+    margin: 15px;
+    font-weight:700;
+}
+.hire-p{
+    color: #686868;
+    font-weight: 500;
+}
+.data-con{
+    color: #686868;
+    margin: 15px;
+}
+/* .data-con-p{
+    display: flex;
+    flex-direction: row;
+} */
+/* .data-con-para{
+    margin-left: 20px;
+} */
+.right-con{
+    width:80vw;
+    height: 200vh;
+    /* margin-left: 20px; */
+}
+
+.button {
+    background-color:transparent;
+    font-family: "Roboto";
+    font-size: 18px;
+    width: 33%;
+    color: #ffff;
+    border-width: 0;
+    border: none;
+    padding: 10px;
+    /* border-radius: 8px; */
+}
+
+.selected-button {
+    background-color:#ffff;
+    border: none;
+    color:black;
+    border-top-left-radius: 8px;
+    border-top-right-radius:8px ;
+
+}
+.dispaly{
+    display: none;
+}
+.btn-con{
+    background-image:linear-gradient(-90deg,#0c749a,#30aed8);   
+    display: flex;
+    flex-direction: row;
+    /* width:81vw; */
+    /* padding: 10px; */
+}
